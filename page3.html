@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us & Contact | Apex Digital Media</title>
+    
+    <!-- Embedded CSS Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #3b82f6;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover, nav a.active {
+            color: #3b82f6;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .page-subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 3rem;
+            font-size: 1.15rem;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 10px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #0f172a;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            color: #475569;
+        }
+
+        /* Team Grid */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .team-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .team-card h3 {
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+        .role {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        /* Contact Details & FAQ */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .info-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        .info-list li {
+            margin-bottom: 0.75rem;
+            color: #475569;
+        }
+        .info-list strong {
+            color: #1e293b;
+        }
+
+        .faq-item {
+            margin-bottom: 1.25rem;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Comment: Author and Date -->
+    <!-- Author: 3rd Team Member / IT Support | Date: November 2026 -->
+
+    <header>
+        <div class="logo">Apex Digital Media</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Products & Services</a>
+            <a href="page3.html" class="active">About Us & Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Our Agency & How to Reach Us</h1>
+        <p class="page-subtitle">Learn the story behind our Columbia, SC agency and get in touch with our team.</p>
+
+        <!-- The Origin Story -->
+        <section>
+            <h2>Our Origin Story</h2>
+            <p>Apex Digital Media was founded in Columbia, South Carolina, by a team of technology and marketing enthusiasts who noticed a glaring bottleneck in the digital advertising industry: small-to-midsize businesses were wasting countless hours manually gathering metrics from scattered spreadsheets while lacking real-time visibility into their ad spend.</p>
+            <p>Determined to fix data fragmentation and client opacity, we built a centralized Business Intelligence system backed by a robust relational database. Today, we empower businesses to scale smarter, faster, and with absolute data transparency.</p>
+        </section>
+
+        <!-- Meet the Founders / Team -->
+        <section>
+            <h2>Meet the Founders & Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <h3>Alton Jackson</h3>
+                    <div class="role">Chief Executive Officer & IT Lead</div>
+                    <p>Oversees database architecture, BI pipeline automation, and overall agency technology strategy.</p>
+                </div>
+                <div class="team-card">
+                    <h3>Tyler Carpenter</h3>
+                    <div class="role">Lead Account Manager & Paid Social Specialist</div>
+                    <p>Manages multi-channel campaign strategies, client ad performance optimization, and client relations.</p>
+                </div>
+                <div class="team-card">
+                    <h3>Agency Operations</h3>
+                    <div class="role">Director of Portfolio Strategy</div>
+                    <p>Monitors agency-wide ad spend under management, resource allocation, and long-term client retention metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & FAQ Section -->
+        <section>
+            <h2>Contact Details & Frequently Asked Questions</h2>
+            <div class="contact-container">
+                <div>
+                    <h3>Get In Touch</h3>
+                    <p>Ready to upgrade your marketing performance with real-time analytics? Reach out to our team today!</p>
+                    <ul class="info-list">
+                        <li><strong>Email:</strong> contact@apexdigitalmedia.com</li>
+                        <li><strong>Phone:</strong> (803) 555-0199</li>
+                        <li><strong>Location:</strong> 301 Forest Hill Blvd, Columbia, SC 29201</li>
+                        <li><strong>Hours:</strong> Monday – Friday, 8:00 AM – 6:00 PM EST</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-item">
+                        <h3>How fast can our dashboard be set up?</h3>
+                        <p>Most client dashboards and ad ingestion pipelines are fully integrated within 3 to 5 business days.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is my campaign data secure?</h3>
+                        <p>Yes! We use strict Role-Based Access Control (RBAC) enforced by our database backend to ensure complete privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Apex Digital Media. All rights reserved. | Designed for IT Web Development Project.</p>
+    </footer>
+
+</body>
+</html>

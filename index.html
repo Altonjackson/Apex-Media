@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Digital Media | Multi-Channel Ad Campaigns & BI Analytics</title>
+    
+    <!-- Embedded CSS Styles -->
+    <style>
+        /* Global Reset & Typography */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation Styling */
+        header {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #3b82f6;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover, nav a.active {
+            color: #3b82f6;
+        }
+
+        /* Main Container Layout */
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: #ffffff;
+            padding: 4rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .hero h1 {
+            font-size: 2.75rem;
+            margin-bottom: 1rem;
+            color: #f8fafc;
+        }
+        .hero p.tagline {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+        }
+
+        /* Buttons & CTA */
+        .cta-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3b82f6;
+            color: #ffffff;
+            padding: 0.75rem 1.75rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #2563eb;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid #cbd5e1;
+            color: #ffffff;
+        }
+        .btn-secondary:hover {
+            background-color: #cbd5e1;
+            color: #0f172a;
+        }
+
+        /* Elevator Pitch & Sections */
+        section {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 10px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: #475569;
+        }
+
+        /* Highlights Grid */
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .card h3 {
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Image Styling */
+        .image-banner {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .image-banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Trust / Fun Element Box */
+        .trust-box {
+            background-color: #eff6ff;
+            border-left: 5px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin-top: 2rem;
+        }
+        .trust-box h3 {
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Comment: Author and Date -->
+    <!-- Author: IT/Computing Team Member | Date: November 2026 -->
+
+    <header>
+        <div class="logo">Apex Digital Media</div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="page2.html">Products & Services</a>
+            <a href="page3.html">About Us & Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Scale Smarter with Real-Time Ad Intelligence</h1>
+            <p class="tagline">Empowering small-to-midsize businesses in Columbia, SC with multi-channel ad management and centralized Business Intelligence dashboards.</p>
+            <div class="cta-container">
+                <a href="page2.html" class="btn">Explore Our Services</a>
+                <a href="page3.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+
+        <!-- The Elevator Pitch -->
+        <section>
+            <h2>Who We Are & What We Do</h2>
+            <p>Apex Digital Media is a premier digital marketing agency based right here in Columbia, South Carolina. We specialize in driving high-converting social media growth, paid search optimization, and multi-channel ad campaigns for ambitious small-to-midsize businesses.</p>
+            <p>By replacing manual, error-prone spreadsheets with our custom-built Business Intelligence (BI) system backend, we give our clients absolute real-time visibility into their Return on Ad Spend (ROAS) and critical growth metrics.</p>
+        </section>
+
+        <!-- Related Image -->
+        <div class="image-banner">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80" alt="Data Analytics Dashboard showing marketing metrics">
+        </div>
+
+        <!-- Featured Highlights -->
+        <section>
+            <h2>What Makes Us Unique</h2>
+            <div class="highlights-grid">
+                <div class="card">
+                    <h3>Centralized BI Dashboards</h3>
+                    <p>No more waiting for weekly reports. Log in anytime to track live conversion metrics, ad spend, and ROAS across Meta, Google, and TikTok.</p>
+                </div>
+                <div class="card">
+                    <h3>Multi-Channel Mastery</h3>
+                    <p>Seamlessly coordinate ad campaigns across multiple platforms with automated nightly pipeline ingestion scripts.</p>
+                </div>
+                <div class="card">
+                    <h3>Strict Data Privacy (RBAC)</h3>
+                    <p>Our secure relational database enforces Role-Based Access Control, ensuring complete data isolation and client confidentiality.</p>
+                </div>
+            </div>
+
+            <!-- Quick Trust / Fun Element -->
+            <div class="trust-box">
+                <h3>Client Spotlight & Student Fun Fact</h3>
+                <p><em>"Apex Digital Media helped us increase our Q4 holiday campaign revenue by over 340% while slashing our cost-per-acquisition!"</em> – <strong>Apex Retail Client Review</strong></p>
+                <p style="margin-bottom: 0; font-size: 0.95rem; color: #334155;"><strong>Student Group Fun Fact:</strong> Our team built this fictional agency dashboard design inspired by real database architecture principles (PK/FK relationships) learned in class!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Apex Digital Media. All rights reserved. | Designed for IT Web Development Project.</p>
+    </footer>
+
+</body>
+</html>
